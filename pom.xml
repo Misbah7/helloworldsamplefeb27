@@ -7,7 +7,12 @@
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
-
+      <distributionManagement>
+         <repository>
+            <id>SulaxmanTemp</id>
+               <url>http://localhost:8081/nexus/content/repositories/SulaxmanTemp</url>
+        </repository>
+      </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
